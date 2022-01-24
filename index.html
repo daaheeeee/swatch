@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="./img/shomeicon.png"> <!--스마트폰에서 보이는 작은 로고-->
+	<meta property="og:type" content="website"> 
+	<meta property="og:site_name" content="스와치사이트">
+	<meta property="og:locale" content="ko"> <!--스마트폰에서 낭독될 언어-->
+	<meta property="og:title" content="스와치사이트">
+	<meta property="og:description" content="명품시계사이트"> <!--사이트소개문구-->
+	<title>Swatch</title> <!--인터넷에서 보는 사이트 제목-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="./css/slick.css">
+	<link rel="shortcut icon" href="./img/favicon.ico"> <!--인터넷에서 보이는 작은 로고-->
+	<link rel="apple-touch-icon" href="./img/shomeicon.png"> <!--스마트폰에서 보이는 작은 언어-->
+	<link rel="stylesheet" href="./css/index.css">
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<script src="./js/prefixfree.min.js"></script>
+	<script src="./js/jquery.mousewheel.min.js"></script>
+	<script src="./js/slick.min.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+</head>
+<body>
+	<div class="loading">
+		<!-- <i class="fas fa-spinner fa-spin"></i> -->
+		<p>0%</p>
+	</div>
+	<!-- 빙글빙글 돌아가게 하려면 뒤에 fa-spin 쓰면 됨 <i class="fas fa-spinner fa-spin"></i> -->
+
+<!-- 주 메뉴 -->
+<ul id="menu">
+	<li><a href="#"><span>About Me</span></a></li>
+	<li><a href="#"><span>My Skills</span></a></li>
+	<li><a href="#"><span>My Portfolio</span></a></li>
+	<li><a href="#"><span>Contact Me</span></a></li>
+</ul>
+
+
+<!-- 전체 페이지 -->
+<div id="wrap">
+
+	<!-- 첫 번째 박스 -->
+	<section id="sect1">
+		<div class="slideOuter">
+			<div class="slideInner">
+				<div class="slide slide1">
+					<div class="text">
+						<p>My name is</p>
+						<p>Kim Eun Young</p>
+					</div>
+				</div>
+				<div class="slide slide2">
+					<div class="text">
+						<p>My name is</p>
+						<p>Kim Eun Young</p>
+					</div>
+				</div>
+				<div class="slide slide3">
+					<div class="text">
+						<p>My name is</p>
+						<p>Kim Eun Young</p>
+					</div>
+				</div>
+				<div class="slide slide4">
+					<div class="text">
+						<p>My name is</p>
+						<p>Kim Eun Young</p>
+					</div>
+				</div>
+			</div>
+			<button class="plpa"><i class="fas fa-pause"></i></button>
+		</div>
+	</section>
+	
+	<!-- 두 번째 박스 -->
+	<section id="sect2">
+		<div class="skillContainer">
+			<div class="html">
+				<div class="score">
+					<div class="myscore">0%</div>
+				</div>
+				<p>HTML5</p>
+			</div>
+			<div class="css">
+				<div class="score">
+					<div class="myscore">0%</div>
+				</div>
+				<p>CSS3</p>
+			</div>
+			<div class="script">
+				<div class="score">
+					<div class="myscore">0%</div>
+				</div>
+				<p>javaScript</p>
+			</div>
+			<div class="jquery">
+				<div class="score">
+					<div class="myscore">0%</div>
+				</div>
+				<p>jQuery</p>
+			</div>
+			<div class="react">
+				<div class="score">
+					<div class="myscore">0%</div>
+				</div>
+				<p>React</p>
+			</div>
+		</div>
+	</section>
+	
+	<!-- 세 번째 박스 -->
+	<section id="sect3">
+		<div>
+			<div class="category">
+				<a href="*">All</a> <!--원래는 all이었는데 . , * 생김-->
+				<a href=".rwd">반응형웹</a>
+				<a href=".react">React</a>
+			</div>
+			<ul > <!--원래는 item없이 fadeIn,Out, each문 씀-->
+				<li class="item rwd"><a href="http://www.naver.com" title="포트폴리오 0" ><img src="./img/bg1.jpg" alt="이미지1"></a></li>
+				<li class="item react"><a href="http://www.daum.net" title="포트폴리오 1"><img src="./img/bg2.jpg" alt="이미지2"></a></li>
+				<li class="item rwd"><a href="http://google.com" title="포트폴리오 2"><img src="./img/bg3.jpg" alt="이미지3"></a></li>
+				<li class="item react"><a href="http://www.naver.com" title="포트폴리오 3"><img src="./img/bg4.jpg" alt="이미지4"></a></li>
+				<li class="item rwd"><a href="http://www.daum.net" title="포트폴리오 4"><img src="./img/bg1.jpg" alt="이미지5"></a></li>
+				<li class="item react"><a href="http://google.com" title="포트폴리오 5"><img src="./img/bg2.jpg" alt="이미지6"></a></li>
+				<li class="item rwd"><a href="http://www.naver.com" title="포트폴리오 6"><img src="./img/bg3.jpg" alt="이미지7"></a></li>
+				<li class="item react"><a href="http://www.daum.net" title="포트폴리오 7"><img src="./img/bg4.jpg" alt="이미지8"></a></li>
+			</ul>
+		</div>		
+	</section>
+	
+	<!-- 네 번째 박스 -->
+	<section id="sect4">
+		<div class="formbox">
+			<form action="#" mothod="post">
+				<fieldset>
+					<legend class="blind">연락처를 남겨주세요.</legend>
+					<table>
+						<colgroup>
+							<col>
+							<col>
+						</colgroup>
+						<tr>
+							<td>
+								<label for="irum">성명</label>
+							</td>
+							<td>
+								<input type="text" name="irum" id="irum">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="phone">연락처</label>
+							</td>
+							<td>
+								<input type="text" name="hp1" id="phone"> -
+								<input type="text" name="hp2"> -
+								<input type="text" name="hp3">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="email">이메일</label>
+							</td>
+							<td>
+								<input type="text" id="email" name="eid"> @
+								<input type="text" name="edomain">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="memo">메모</label>
+							</td>
+							<td>
+								<textarea name="memo" id="memo"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="attach">첨부파일</label>
+							</td>
+							<td>
+								<input type="file" id="attach">
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+				<div class="btn">
+					<button type="submit">전송</button>
+					<button type="reset">취소</button>
+				</div>
+			</form>
+		</div>
+	</section>
+</div>
+
+<script src="./js/index.js"></script>
+
+<!-- <div class="outLayer"><div class="inLayer">
+		<h2>${title}</h2>
+		<div><a href="${href}" target="_blank"><img src="${src}" alt="${alt}"></a></div>
+	</div>
+	<button type="button">닫기</button>
+	팝업은 전송하는게 아니니까 type="button" 
+</div> -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
